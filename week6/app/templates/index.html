@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% for user in users %}
+    <p> {{user['name']}}</p>
+    {% endfor %}
+{% endblock %}
+
+{% block hi %}
+    {% for user in users %}
+    <p> {{user['name']}}</p>
+    {% endfor %}
+{% endblock %}
+
